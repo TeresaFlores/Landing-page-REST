@@ -1,0 +1,48 @@
+.historia{
+    background-color: #fcf4f4; 
+    height: 800px;
+    position: relative;
+}
+.contenedor-historia{
+     position: absolute;
+     top: 40%;
+     left: 50%;
+     transform: translateX(-50%) translateY(-35%);
+     /* background-color: red; */
+     width: 340px;
+     height: 650px;
+}
+
+.puntos-historia{
+     position: absolute;
+     top: 40%;
+     left: 50%;
+     transform: translateX(0%) translateY(-130%);
+     z-index: -1;
+}
+.imagen-historia{
+     margin-left: 28px;
+    
+}
+
+.contenedor-historia h3{
+     font-family: 'Roboto', sans-serif;
+     margin-top: 50px;
+     font-size: 22px;
+     color: #333333;
+}
+
+.contenedor-historia  p{
+     font-family: 'Roboto', sans-serif;
+     font-size: 18px;
+     color: #333333;
+     margin-top: 10px;
+     font-weight: bold;
+     letter-spacing: 1px;
+     line-height:1.6em;
+}
+.contenedor-historia h2{
+     margin-top: 18px;
+     font-family: 'PT Serif', serif; 
+     font-size: 30px;
+}

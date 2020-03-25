@@ -1,0 +1,58 @@
+.ofertas{
+     position: relative;
+     background-color: red;
+     height: 900px;
+}
+.contenedor-ofertas{
+     position: absolute;
+     top: 40%;
+     left: 50%;
+     transform: translateX(-50%) translateY(-38%);
+     background-color: royalblue;
+     width: 340px;
+     height: 830px;
+}
+.puntos-ofertas{
+     position: absolute;
+     top: 40%;
+     left: 50%;
+     transform: translateX(-5%) translateY(-185%);
+     z-index: -1;
+}
+.contenedor-ofertas h3{
+     margin-top: 50px;
+     color: #333333;
+     font-family: 'Roboto', sans-serif;
+     font-size: 25px;
+}
+.contenedor-ofertas h2{
+     margin-top: 10px;
+     color: #333333;
+     font-family: 'PT Serif', serif;
+     font-size: 42px;  
+}
+
+.contenedor-ofertas table{
+     margin-top: 45px;
+     font-family: 'Roboto', sans-serif;
+     color: #333333;
+     background-color: salmon;
+     font-size: 20px; 
+     width:340px;
+    
+     
+}
+.contenedor-ofertas table tr{
+     display: flex;
+     justify-content: space-between;
+     /* margin-top: 10px; */
+}
+.tabla-ing{
+     font-size: 14px; 
+    
+      
+}
+tbody {
+     border-top: 1px solid #000;
+     border-bottom: 1px solid #000;
+  }
